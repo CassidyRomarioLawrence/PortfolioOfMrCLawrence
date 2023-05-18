@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="card-group project-cards">
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-duration="2000">
                 <div class="card-img-body">
                     <img class="card-img" src="https://i.postimg.cc/wTQDfjfg/Screenshot-2023-05-10-200504.png" alt="Card image cap">
                 </div>
@@ -11,7 +11,7 @@
                     <a href="https://romariolawrence.netlify.app/" target="_blank" class="btn">Live Site</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-duration="2000">
                 <div class="card-img-body">
                     <img class="card-img" src="https://i.postimg.cc/GmRNJvWw/Screenshot-2023-05-12-084350.png" alt="Card image cap">
                 </div>
@@ -21,7 +21,7 @@
                     <a href="https://dev-football-bloggers.pantheonsite.io/" target="_blank" class="btn">Live Site</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-duration="2000">
                 <div class="card-img-body">
                     <img class="card-img" src="https://i.postimg.cc/DfBJ79G4/Screenshot-2023-05-12-090927.png" alt="Card image cap">
                 </div>
@@ -31,7 +31,7 @@
                     <a href="https://cassidy-calculator.netlify.app/" target="_blank" class="btn">Live Site</a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up" data-aos-duration="2000">
                 <div class="card-img-body">
                     <img class="card-img" src="https://i.postimg.cc/TPmsv8tZ/active.png" alt="Card image cap">
                 </div>
@@ -62,6 +62,8 @@ export default {
 
 .card-img {
     border-radius: 0;
+    z-index: 1;
+    padding: -20px;
 }
 
 .project-cards {

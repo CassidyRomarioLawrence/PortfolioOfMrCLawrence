@@ -1,8 +1,10 @@
 <template>
-    <div class="container about d-flex align-items-center justify-content-center">
+    <div class="container about d-flex align-items-center justify-content-center" data-aos="fade-right"
+     data-aos-offset="400"
+     data-aos-easing="ease-in-sine" data-aos-duration="1200">
         <div class="row w-100">
             <div class="col-md-6 text-center my-auto p-3">
-                <img src="https://i.postimg.cc/J44ttb3M/Picsart-23-05-04-09-12-42-406-removebg-preview-1.png" class="rounded-circle profile img-fluid" alt="" style="width: 450px;height: 450px;">
+                <img src="https://i.postimg.cc/J44ttb3M/Picsart-23-05-04-09-12-42-406-removebg-preview-1.png" class="profile img-fluid" alt="" style="width: 25rem;">
             </div>
             <div class="col-md-6 p-2">
                 <h5>Who am I ?</h5><br>
@@ -39,6 +41,7 @@
 }
 
 .profile{
+    border-radius: 50% 70% 70% 30% / 30% 30% 70% 70%;
     box-shadow: 5px 2px 2px rgba(128, 128, 128, 0.629);
     border: 1px solid rgba(128, 128, 128, 0.25);
 }
@@ -49,6 +52,13 @@ h5,h4{
 
 .skills img{
     width: 3.5rem;
-    padding: 4px;
+    padding-right: 8px;
 }
+
+@media screen and (max-width: 760px){
+    .profile{
+        width: 20rem;
+    }
+}
+
 </style>

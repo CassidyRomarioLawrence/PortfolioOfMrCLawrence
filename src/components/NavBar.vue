@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg sticky-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#home">developer .</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -49,6 +49,6 @@ export default {
 }
 
 .navbar{
-    background-image: linear-gradient(to right, rgb(119, 1, 119),rgb(237, 59, 237),rgb(0, 183, 255));
+    background-image: linear-gradient(to right, rgb(119, 1, 119),rgb(0, 183, 255));
 }
 </style>

@@ -2,7 +2,7 @@
 <div class="container resume">
     <div class="row">
         <div class="col-md-6">
-            <div class="container work p-5 my-3">
+            <div class="container work p-5 my-3" data-aos="fade-right" data-aos-duration="2000">
                 <h3 class="text-center py-2">Work</h3><br>
 
                 <ul>
@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="container education p-5 my-3">
+            <div class="container education p-5 my-3" data-aos="fade-left" data-aos-duration="2000">
                 <h3 class="text-center py-2">Education</h3><br>
 
                 <ul>
@@ -73,9 +73,15 @@
     border: 1px solid rgba(128, 128, 128, 0.25);
     box-shadow: 5px 5px 2px rgba(128, 128, 128, 0.629);
     background-color: whitesmoke;
+    cursor: pointer;
 }
 
 h3{
     font-weight: bolder;
+}
+
+.work:hover,.education:hover{
+    background-image: linear-gradient(to right, rgb(119, 1, 119),rgb(0, 183, 255));
+    color: white;
 }
 </style>

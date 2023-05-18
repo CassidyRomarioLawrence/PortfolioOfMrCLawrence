@@ -2,8 +2,8 @@
 <div class="container landing d-flex">
     <div class="row w-100 align-items-center">
         <div class="col-md-6 justify-content-center">
-            <h1>Hi, I'm <span id="typed-text">Cassidy Lawrence</span></h1>
-            <h5>Full Stack Software Developer</h5>
+            <h1>Hi, I'm <span>Cassidy Lawrence</span></h1>
+            <h4>Full Stack Software Developer</h4>
         </div>
         <div class="col-md-6 justify-content-center">
             <img src="https://i.postimg.cc/wBBcF4Tm/3d-render-code-testing-functional-test-usability-removebg-preview-1.png" alt="" style="width: 100%;">
@@ -25,5 +25,13 @@
 }
 span{
     font-weight: bolder;
+}
+
+h4{
+    color: #FC915F;
+}
+
+h1,h4{
+    text-shadow: 2px 2px 2px grey;
 }
 </style>

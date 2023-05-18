@@ -14,6 +14,14 @@
     <h2 class="py-3 mb-3 text-center">Projects :</h2>
     <ProjectsC />
   </div>
+  <div id="testimonials">
+    <h2 class="py-3 mb-3 text-center">Testimonials :</h2>
+    <TestimonialsC />
+  </div>
+  <div id="contact">
+    <h2 class="py-3 mb-3 text-center">Get in touch :</h2>
+    <ContactC />
+  </div>
 </template>
 
 <script>
@@ -21,6 +29,8 @@ import LandingC from '@/components/LandingC.vue';
 import AboutC from '@/components/AboutC.vue';
 import ResumeC from '@/components/ResumeC.vue';
 import ProjectsC from '@/components/ProjectsC.vue';
+import TestimonialsC from '@/components/TestimonialsC.vue';
+import ContactC from '@/components/ContactC.vue';
 
 export default {
   name: 'HomeView',
@@ -28,18 +38,20 @@ export default {
     LandingC,
     AboutC,
     ResumeC,
-    ProjectsC
+    ProjectsC,
+    TestimonialsC,
+    ContactC
   }
 }
 </script>
 
 <style>
-#home,#about,#resume,#projects{
+#home,#about,#resume,#projects,#testimonials,#contact{
   min-height: 100vh;
   scroll-margin-block: 60px;
 }
 #home{
-  background-image: linear-gradient(to right, rgb(119, 1, 119),rgb(237, 59, 237),rgb(0, 183, 255));
+  background-image: linear-gradient(to right, rgb(119, 1, 119),rgb(0, 183, 255));
 }
 
 
@@ -54,6 +66,16 @@ export default {
 }
 
 #projects h2{
+  font-weight: bolder;
+  text-shadow: 2px 1px 1px rgba(128, 128, 128, 0.677);
+}
+
+#testimonials h2{
+  font-weight: bolder;
+  text-shadow: 2px 1px 1px rgba(128, 128, 128, 0.677);
+}
+
+#contact h2{
   font-weight: bolder;
   text-shadow: 2px 1px 1px rgba(128, 128, 128, 0.677);
 }
