@@ -96,7 +96,7 @@
 }
 
 .socials{
-    background-image: linear-gradient(to right, rgb(119, 1, 119),rgb(0, 183, 255));
+    background-image: linear-gradient(to right, #770177,#00b7ff);
     color: white;
 }
 #contact-form{

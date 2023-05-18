@@ -4,7 +4,7 @@
      data-aos-easing="ease-in-sine" data-aos-duration="1200">
         <div class="row w-100">
             <div class="col-md-6 text-center my-auto p-3">
-                <img src="https://i.postimg.cc/J44ttb3M/Picsart-23-05-04-09-12-42-406-removebg-preview-1.png" class="profile img-fluid" alt="" style="width: 25rem;">
+                <img src="https://i.postimg.cc/TwKZr5gP/Picsart-23-05-04-09-12-42-406-removebg-preview-1.png" class="rounded-circle profile img-fluid" alt="" style="width: 25rem;">
             </div>
             <div class="col-md-6 p-2">
                 <h5>Who am I ?</h5><br>
